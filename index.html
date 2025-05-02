@@ -2,83 +2,123 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JKseal Caulking</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f8fb;
       color: #333;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #2c3e50;
+      background: linear-gradient(90deg, #2c3e50, #34495e);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
     main {
-      padding: 20px;
-      max-width: 900px;
+      padding: 40px 20px;
+      max-width: 1000px;
       margin: auto;
     }
     section {
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
-    h1, h2 {
-      margin: 0 0 10px;
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #2c3e50;
     }
     ul {
       list-style: none;
-      padding: 0;
+      padding-left: 0;
     }
     ul li::before {
-      content: \"✔ \";
-      color: green;
+      content: "✔ ";
+      color: #27ae60;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     footer {
-      background-color: #eee;
+      background-color: #ecf0f1;
       padding: 20px;
       text-align: center;
       font-size: 0.9em;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>JKseal Caulking</h1>
-    <p>Professional Silicone & Caulking Services</p>
-    <p>Gold Coast | Brisbane | Byron Bay</p>
+    <p>Sealing with precision. Finishing with pride. Serving Gold Coast, Brisbane & Byron Bay</p>
   </header>
 
   <main>
+    <section>
+      <h2>About Us</h2>
+      <p>Welcome to <strong>JKseal Caulking</strong> – where neat finishes and lasting results meet expert care. Whether you're fixing up an old shower or sealing a brand-new kitchen, we bring reliable, professional service to every project. We're not just filling gaps – we're building trust, one seal at a time.</p>
+    </section>
+
     <section>
       <h2>Our Services</h2>
       <ul>
         <li>Bathroom & Shower Re-silicone</li>
         <li>Kitchen Sink Sealing</li>
-        <li>Window & Door Frames</li>
-        <li>Skirting & Expansion Joints</li>
+        <li>Window & Door Frame Sealing</li>
+        <li>Skirting & Expansion Joint Filling</li>
         <li>Mouldy Silicone Removal & Resealing</li>
       </ul>
     </section>
 
     <section>
-      <h2>Why Choose Us?</h2>
+      <h2>Gallery – Before & After</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/400x250?text=Before+-+Shower" alt="Before - Shower">
+        <img src="https://via.placeholder.com/400x250?text=After+-+Shower" alt="After - Shower">
+        <img src="https://via.placeholder.com/400x250?text=Before+-+Kitchen" alt="Before - Kitchen">
+        <img src="https://via.placeholder.com/400x250?text=After+-+Kitchen" alt="After - Kitchen">
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Choose JKseal?</h2>
       <ul>
-        <li>Clean, Precise Finish</li>
-        <li>Fast & Reliable Service</li>
-        <li>Locally Owned & Operated</li>
-        <li>Free Quotes Available</li>
-        <li>ABN Registered & Insured</li>
+        <li>Detailed and tidy finishes – every time</li>
+        <li>Fast response and flexible scheduling</li>
+        <li>Locally owned, friendly and honest service</li>
+        <li>Free quotes with no hidden fees</li>
+        <li>Fully ABN registered and insured</li>
       </ul>
     </section>
 
     <section>
       <h2>Contact</h2>
-      <p><strong>Phone:</strong> 0400 000 000</p>
+      <p><strong>Phone:</strong> 0451 535 144</p>
       <p><strong>Email:</strong> jkseal.caulking@gmail.com</p>
-      <p><strong>Instagram:</strong> @jkseal.caulking</p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/jkseal.caulking" target="_blank">@jkseal.caulking</a></p>
     </section>
   </main>
 
